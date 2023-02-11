@@ -1,0 +1,13 @@
+.form button{
+   border: none;
+   padding: 7px 20px;
+   border-radius: 6px ;
+   background-color: brown;
+   color: #fff;
+   font-size: .9rem;
+   transition: all 0.3s ease;
+   margin-left: 10px;
+}
+.form button:hover{
+   transform: scale(1.1);
+}

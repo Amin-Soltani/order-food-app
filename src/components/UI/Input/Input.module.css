@@ -1,0 +1,13 @@
+.input{
+   margin-bottom: .5rem;
+}
+.input label{
+   margin-right: .5rem;
+}
+.input input{
+   border: 1px solid gray;
+   border-radius: 4px;
+   padding: 4px 5px ;
+   width: 35px;
+   /* outline: 2px solid brown; */
+}

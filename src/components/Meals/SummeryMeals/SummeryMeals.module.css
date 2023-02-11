@@ -1,0 +1,16 @@
+.summery{
+   background-color: brown;
+   width: 35%;
+   border-radius: 7px;
+   color: #fff;
+   position: absolute;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 10px 15px;
+   opacity: 0.8;
+}
+.summery h2{
+   text-align: center;
+
+}

@@ -1,0 +1,19 @@
+.meals{
+   width: 85%;
+   margin: 0 auto;
+   animation: meals-appear 0.9s ease-in;
+}
+.meals ul{
+   list-style: none;
+}
+
+@keyframes meals-appear {
+   from{
+      opacity: 0;
+      transform:  translateY(3rem);
+   }
+   to{
+      opacity: 1;
+      transform: translateY(0);
+   }
+}

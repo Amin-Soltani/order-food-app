@@ -1,0 +1,39 @@
+.button{
+   border: none;
+   text-align: center;
+   padding: 6px 12px;
+   border-radius:10px ;
+   display: flex;   
+   align-items: center;
+   justify-content: space-between;
+   transition: all 0.3s ease;
+}
+.button span{
+   margin:0 6px;
+}
+.icon{
+   font-size: 1.2rem;
+   color: brown;
+}
+.badge{
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+   background-color: brown;
+}
+.button:hover {
+   background-color: yellowgreen;
+   color: #fff;
+   transform: scale(1.1);
+
+}
+.button:hover .icon{
+  color: darkblue;
+}
+.button:hover .badge{
+   background-color: darkblue;
+}
